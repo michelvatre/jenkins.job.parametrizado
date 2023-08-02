@@ -1,5 +1,5 @@
 job('ejemplo2-job-DSL') {
-	description('Job DSL de ejemplo para el curso de Jenkins')
+	description('Job DSL de ejemplo para el curso de Jenkinss')
   	scm {
       		git('https://github.com/michelvatre/jenkins.job.parametrizado.git', 'main') { node ->
         		node / gitConfigName('michelvatre')
