@@ -3,7 +3,7 @@ job('ejemplo2-job-DSL') {
   	scm {
       		git('https://github.com/michelvatre/jenkins.job.parametrizado.git', 'main') { node ->
         		node / gitConfigName('michelvatre')
-        		node / gitConfigEmail('michelvatre@gmail.com')
+        		node / gitConfigEmail('michelvatre94@gmail.com')
       		}
     	} 
   	parameters {
@@ -19,7 +19,7 @@ job('ejemplo2-job-DSL') {
 		githubPush()
     	}
   	publishers {
-      		mailer('macloujulian@gmail.com', true, true)
+      		mailer('michelvatre94@gmail.com', true, true)
       		slackNotifier {
 		  notifyAborted(true)
 		  notifyEveryFailure(true)
