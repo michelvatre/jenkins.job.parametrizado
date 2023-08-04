@@ -8,4 +8,4 @@ else
 fi
 echo "..."
 sleep 10
-echo "¡!Prueba Suerte! La necesitarás. 000PPP"
+echo "¡!Prueba Suerte! La necesitarás. MVT000PPP"
